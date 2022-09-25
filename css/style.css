@@ -10,7 +10,7 @@ html {
 
 body {
   box-sizing: border-box;
-  padding: 3rem; }
+  padding: 0.5rem; }
 
 body {
   font-family: "Roboto", sans-serif;
@@ -27,8 +27,27 @@ body {
   .heading-primary__yellow {
     color: #FFEE2E; }
 
+.heading-secondary {
+  text-align: left;
+  font-size: 4.8rem; }
+  .heading-secondary__orange {
+    color: #F9804B;
+    text-align: center; }
+
+.heading-tertiary {
+  text-align: center;
+  font-size: 3.6rem; }
+
+.heading-quaternary {
+  text-align: left;
+  font-size: 2.4rem; }
+
+.paragraph {
+  text-align: left;
+  font-size: 1.6rem; }
+
 .header {
-  height: 95%;
+  height: 100%;
   background-color: #000000;
   padding: 5rem 0; }
 
@@ -58,6 +77,10 @@ body {
   .row .col-3-of-4 {
     width: calc(3 * (100% - 3 * 6rem) / 4 + 2 * 6rem); }
 
-.welcome {
+.wrapper {
+  max-width: 116rem;
+  margin: auto; }
+
+.section-welcome {
   background-image: url(../img/Giant_Panda.png);
   padding: 25rem 0; }
