@@ -20,12 +20,7 @@ body {
 
 .heading-primary {
   color: #FFFFFF;
-  text-transform: uppercase;
-  text-align: center;
-  backface-visibility: hidden;
-  font-size: 10.6rem; }
-  .heading-primary__yellow {
-    color: #FFEE2E; }
+  text-transform: uppercase; }
 
 .header {
   height: 95%;
