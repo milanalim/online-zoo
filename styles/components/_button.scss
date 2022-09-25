@@ -1,3 +1,39 @@
-.btn{
-  padding: 5px 16px 1px;
+.btn {
+  &,
+  &:link,
+  &:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-size: $default-font-size;
+    display: inline-block;
+
+    position: relative;
+    border: none;
+    cursor: pointer;
+  }
+
+  &-elipse{
+    color: $color-text-light;
+    background-color: $color-primary;
+    width: 29.8rem;
+    height: 5.4rem;
+    border-radius: 2.5rem;
+  }
+
+  &-circle{
+    color: $color-text-light;
+    background-color: $color-primary;
+    width: 6.2rem;
+    height: 6.2rem;
+    border-radius: 5rem;
+  }
+
+  &-square{
+    color: $color-text-light;
+    background-color: $color-primary;
+    width: 29.8rem;
+    height: 5.4rem;
+    border-radius: 0.7rem;
+  }
 }

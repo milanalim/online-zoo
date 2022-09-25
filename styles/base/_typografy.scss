@@ -12,6 +12,8 @@ body {
   text-align: center;
   backface-visibility: hidden;
   font-size: 10.6rem;
+  font-weight: 700;
+  line-height: 75%;
 
   &__yellow{
     color: $color-yellow;
