@@ -1,5 +1,23 @@
 .header{
-  height: 100%;
-  background-color: #000000;
-  padding: 5rem 0;
+  font-size: $default-font-size;
+  line-height: 2.24rem;
+  color: $color-text-light;
+  background-color: $color-heading;
+  padding: 1.4rem 0;
+}
+
+.header__wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation{
+  display: flex;
+
+  &__link{
+    list-style: none;
+    padding: 0 2.5rem ;
+    cursor: pointer;
+  }
 }
